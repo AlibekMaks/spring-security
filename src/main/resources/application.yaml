@@ -12,6 +12,6 @@ spring:
           use_jdbc_metadata_defaults: false
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgresql?currentSchema=springsecurity
+    url: jdbc:postgresql://localhost:5432/springsecurity?currentSchema=public
     username: postgres
-    password:
+    password: postgres
